@@ -160,3 +160,70 @@ p {
 }
 /* Finish coding styles for section budget */
 
+/* start coding styles for the section opportunity */
+.cap{
+   background-color: #FAFAFA;
+   padding-top: 63px;
+   padding-bottom: 234px;
+}
+.cap__container-title{
+   text-align: center;
+   margin-bottom: 63px;
+}
+.cap__grid{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   justify-content: center;
+   gap: 30px;
+}
+.cap__item {
+   position: relative;
+   border-radius: 8px;
+   width: 350px;
+   height: 250px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 30px;
+ }
+ .item__first{
+   background-image: url(../images/first__item.jpg);
+ }
+ .item__second{
+   background-image: url(../images/second__item.jpg);
+ }
+ .item__third{
+   background-image: url(../images/third__item.jpg);
+ }
+ .cap__card {
+   position: absolute;
+   background-color: #fff;
+   box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+   border-radius: 8px;
+   padding: 30px;
+   text-align: center;
+   width: 290px;
+   top: 150px;
+ }
+.cap__card-title{
+   font-size: 18px;
+   font-weight: 500;
+   margin-bottom: 20px;
+}
+.cap__card-text{
+   font-size: 12px;
+   font-weight: 400;
+   line-height: 150%; 
+   margin-bottom: 12px;
+}
+.cap__card a{
+   color: var(--orange);
+   font-size: 12px;
+   font-weight: 400;
+   line-height: 150%;
+   text-decoration: none;
+}
+.cap__card a:hover{
+   opacity: 70%;
+}
+
+/* finish coding styles for the section opportunity */
