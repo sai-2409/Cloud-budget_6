@@ -225,5 +225,30 @@ p {
 .cap__card a:hover{
    opacity: 70%;
 }
-
 /* finish coding styles for the section opportunity */
+
+/* start coding styles for the section with icons  */
+.icon{
+   padding-top: 63px;
+   padding-bottom: 108px;
+}
+.icon__container-title{
+   margin-bottom: 52px;
+   text-align: center;
+}
+.icon__content{
+   display: flex;
+   justify-content: space-between;
+   text-align: center;
+}
+.icon__content-item-title{
+   font-size: 18px;
+   font-weight: 500;
+   padding-top: 19px;
+   margin-bottom: 12px;
+}
+.icon__content-item-text{
+   font-size: 12px;
+   max-width: 200px;
+}
+/* finish coding styles for the section with icons  */
