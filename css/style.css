@@ -33,7 +33,7 @@ p {
    --white: #FFFFFF;
    --black: #000000;
    --orange: #EE3D1B;
-   --red: #D52047;
+   --red: #ED4C5C;
 }
 .text-h2{
    font-family: Roboto;
@@ -252,3 +252,37 @@ p {
    max-width: 200px;
 }
 /* finish coding styles for the section with icons  */
+
+/* start coding styles for the section man */
+.man{
+   background-color: var(--red);
+   padding: 95px 0;
+}
+.man__content{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.man__content-right-title{
+   color: var(--white);
+   margin-bottom: 24px;
+   max-width: 445px;
+}
+.man__content p{
+   font-size: 14px;
+   line-height: 140%;
+   color: var(--white);
+   margin-bottom: 53px;
+   max-width: 445px;
+}
+.man__content-icons img{
+   margin-right: 25px;
+   cursor: pointer;
+}
+.man__content-icons img:hover{
+   opacity: 80%;
+}
+.man__content img{
+   border-radius: 15px;
+}
+/* start coding styles for the section man */
