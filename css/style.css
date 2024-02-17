@@ -286,3 +286,63 @@ p {
    border-radius: 15px;
 }
 /* start coding styles for the section man */
+
+/* start coding for the section input */
+.input{
+   padding-top: 153px;
+   padding-bottom: 123px;
+}
+.input__content{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.input__content-left p{
+   font-size: 14px;
+   line-height: 140%;
+   padding-top: 93px;
+   max-width: 380px;
+}
+.input__content-right input{
+   width: 540px;
+   height: 60px;
+   border-radius: 6px;
+   border: 1px solid var(--Gray-1, grey);
+   margin-bottom: 24px;
+   font-size: 16px;
+   padding-left: 31px;
+}
+.input__content-button button{
+   padding: 17px 40px;
+   font-size: 14px;
+   background-color: var(--red);
+   color: var(--white);
+   border-radius: 6px;
+   border: 1.5px solid var(--red);
+   cursor: pointer;
+}
+.input__content-button button:hover{
+   background-color: var(--white);
+   color: var(--red);
+   transition: .3s;  
+}
+/* finsh coding for the section input */
+
+/* coding styles for the footer */
+.footer{
+   background: #FAFAFA;
+   padding: 48px 0;
+   margin-bottom: 220px;
+}
+.footer__title{
+   font-size: 18px;
+   font-weight: 700;
+   margin-bottom: 20px;
+}
+.footer__last{
+   font-size: 12px;
+   font-weight: 600;
+   padding-top: 50px;
+}
+/* coding styles for the footer */
+
